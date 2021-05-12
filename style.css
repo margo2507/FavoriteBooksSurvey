@@ -1,0 +1,68 @@
+body {
+	text-align: center
+}
+
+body {
+  border-style: double
+}
+
+h1 {
+  color: rgb(62, 15, 88);
+  text-align: center;
+  font-family: cursive
+}
+
+h1 {
+  background-color: rgb(208, 148, 223)
+}
+
+input {
+  border-style: double
+}
+
+label {
+	margin-left:10px;
+	color: black
+}
+
+.q {
+	border-style: double;
+  background-color: rgba(201, 150, 201, 0.534);
+  color: white;
+}
+
+label {
+  font-weight: bold
+}
+
+body {
+ background-color: rgb(145, 28, 223);
+}
+
+label:hover{
+	color: rgb(208, 148, 223)
+}
+
+label {
+  font-family: cursive
+}
+
+label {
+  font-size: 20px
+}
+
+div {
+  margin: 25px 50px 75px 100px;
+}
+
+div {
+  border-width: 2px
+}
+
+div {
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+}
+

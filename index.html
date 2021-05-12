@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    
+    <h1 style="color:black;">CSE 120 Favorite Books</h1>
+    
+  <form>
+     
+      <div class = "q">
+        <label for="fname">First Name</label><br>
+  		  <input type="text" id="fname" name="fname" onblur="getFname()" required><br>
+      </div>
+
+      <div class = "q">
+        <label for="lname">Last Name</label><br>
+  		  <input type="text" id="lname" name="lname" onblur="getLname()"required><br>
+      </div>
+
+      <div class = "q">
+        <label for="title">Title of the Book</label><br>
+  		  <input type="text" id="title" name="title" onblur="getTitle()"required><br>
+      </div>
+
+      <div class = "q">
+        <label for="author">Author of the Book</label><br>
+  		  <input type="text" id="author" name="author" onblur="getAuthor()"required><br>
+      </div>
+
+      <div class = "q">
+        <label for="covertype">Cover Type</label><br>
+			  <input type="radio" id="paperback" name="covertype" value="paperback">
+			  <label for="paperback">Paperback</label><br>
+			  <input type="radio" id="hardcover" name="covertype" value="hardcover">
+			  <label for="hardcover">Hardcover</label><br>
+			  <input type="radio" id="other" name="covertype" value="other">
+			  <label for="other">Other</label><br>
+      </div>
+
+      <div class = "q">
+        <label for="numofpages">Number of Pages</label><br>
+  		  <input type="text" id="numofpages" name="numofpages" onblur="getNumOfPages()"><br>
+      </div>
+
+      <div class = "q">
+        <label for="price">Price</label><br>
+  		  <input type="text" id="price" name="price" onblur="getPrice()"><br>
+      </div>
+
+      <div class = "q">
+        <label for="currency">Currency</label><br>
+  		  <input type="text" id="currency" name="currency" onblur="getCurrency()"><br>
+      </div>
+
+      <div class = "q">
+        <label for="pubdate">Publishing Date</label><br>
+			  <input type="date" id="pubdate" name="pubdate" placeholder="mm/dd/yyyy" onblur="getPubDate()"required><br>
+      </div>
+
+      <div class = "q">
+        <label for="agerestriction">Age Restriction</label><br>
+  		  <input type="text" id="agerestriction" name="agerestriction" onblur="getAgeRestriction()"><br>
+      </div>
+
+      <input type="submit" onclick="console.log(bookform)">
+      
+     
+  </body>
+</html>
